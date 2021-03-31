@@ -3,9 +3,7 @@ import { Input, Button, Progress, Divider } from "antd";
 import { dataLevel1 } from './dataLevel1';
 import { Link } from 'react-router-dom';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-import {CardActionIcons} from '@material/react-card';
 import badge from './badge.svg';
-import { withTheme } from 'styled-components';
 
 const renderTime = ({ remainingTime }) => {
     if (remainingTime === 0) {

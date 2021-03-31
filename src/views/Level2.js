@@ -3,7 +3,6 @@ import { Input, Button, Progress, Divider } from "antd";
 import { dataLevel2 } from './dataLevel2';
 import { Link } from 'react-router-dom';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-import {CardActionIcons} from '@material/react-card';
 import shirt from './shirt.svg';
 import pendrive from './pendrive.svg';
 
