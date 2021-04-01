@@ -14,7 +14,15 @@ const AppContainer = styled.div`
   align-items: center;
   justify-content: center;
 `;
-
+const ColoredLine = ({ color }) => (
+  <hr
+      style={{
+          color: color,
+          backgroundColor: color,
+          height: 1
+      }}
+  />
+);
 class Home extends Component {
 
  
@@ -26,6 +34,7 @@ class Home extends Component {
           <h2 style={{display:'flex', justifyContent:'center', color: 'white',  fontSize:'2rem'}}>
               Bangla Shothik Quiz
           </h2>
+          <ColoredLine color="white" />
           <div style={{display:'flex', justifyContent:'center', color: 'white', fontSize:'2rem'}}>
               আপনার নাম
           </div>

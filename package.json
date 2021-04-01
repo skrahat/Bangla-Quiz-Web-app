@@ -2,6 +2,7 @@
   "name": "react-quiz-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001/",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "@material-ui/styles": "^4.11.3",
@@ -10,7 +11,10 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "framer-motion": "^4.0.3",
+    "mongoose": "^5.12.3",
     "react": "16.8",
     "react-countdown-circle-timer": "^2.5.1",
     "react-dom": "16.8",
