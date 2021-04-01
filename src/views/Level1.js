@@ -288,7 +288,7 @@ class Level1 extends Component {
                             <h1 style={{justifyContent: 'center',fontSize:'3rem', color: "white", display: this.state.correctAnswer == 9 ? 'flex' : 'none' }}>
                                 You Won a Bandge!! </h1>
                             <br></br>
-                            <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-evenly', display: this.state.correctAnswer == 9 ? 'flex' : 'none' }}>
                                 <img src={badge} alt="Badge Image" height={100} width={120} />
                             </div>
                         

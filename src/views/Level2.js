@@ -298,7 +298,7 @@ class Level2 extends Component {
                             <h1 style={{justifyContent: 'center',fontSize:'3rem', color: "white", display: this.state.correctAnswer == 9 ? 'flex' : 'none' }}>
                                 You Won a Shirt!! </h1>
                             <br></br>
-                            <div style={{ display: 'flex', justifyContent: 'space-evenly', display: this.state.correctAnswer == 10 ? 'flex' : 'none' }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-evenly', display: this.state.correctAnswer == 9 ? 'flex' : 'none' }}>
                                 <img src={shirt} alt="shirt Image" height={200} width={240} />
                             </div>
                         
