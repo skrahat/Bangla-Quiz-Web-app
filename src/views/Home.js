@@ -22,10 +22,14 @@ class Home extends Component {
     return (
       
       <div  class = "background-red" style={{  border: '1px solid grey', borderRadius: '4px', minHeight:200, maxWidth: 600, margin: '3rem auto'}}>
-          <h1 style={{display:'flex', justifyContent:'center', color: 'white', padding: '1rem ', fontSize:'2rem'}}>
+          
+          <h2 style={{display:'flex', justifyContent:'center', color: 'white',  fontSize:'2rem'}}>
+              Bangla Shothik Quiz
+          </h2>
+          <div style={{display:'flex', justifyContent:'center', color: 'white', fontSize:'2rem'}}>
               আপনার নাম
-          </h1>
-        
+          </div>
+          
           <form style={{ padding: '1rem ' }} >
               <div style={{ display: 'flex' }}>
                   <Input
@@ -48,6 +52,12 @@ class Home extends Component {
                   </Button>
               </div>
           </form>
+          
+          <h2 style={{ color: 'white', display:'block', justifyContent:'center',padding:'1px'}}>
+          তথ্য: কুইজে 2 রাউন্ড রয়েছে। প্রতিটি রাউন্ডে, পুরস্কারগুলি সম্পূর্ণ করতে এবং জিততে আপনার কাছে 20 সেকেন্ড রয়েছে।
+          </h2>
+          <h3 style={{display:'flex', justifyContent:'center',color: 'orange'}}>
+            পুরষ্কার: পেনড্রাইভ (স্তর 2-10 পয়েন্ট), টি-শার্ট (স্তর 2-9 পয়েন্ট), স্তর 2 তে প্রবেশ (স্তর 1- 10 পয়েন্ট), ব্যাজ (স্তর 1-9 পয়েন্ট)</h3>
         </div>
       
     );
