@@ -262,6 +262,7 @@ class Level2 extends Component {
                         <div className='score-section'>
                             <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>
                                 You scored { this.state.correctAnswer} out of 10</h1>
+                                <br></br>
                             <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>
                                 অংশগ্রহণের জন্য তোমাকে ধন্যবাদ
                             </h1>
