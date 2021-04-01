@@ -259,7 +259,11 @@ class Level1 extends Component {
                     :
                     <>
                         <div className='score-section'>
-                            <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>You scored { this.state.correctAnswer} out of 10</h1>
+                            <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>
+                                You scored { this.state.correctAnswer} out of 10</h1>
+                            <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>
+                                অংশগ্রহণের জন্য তোমাকে ধন্যবাদ
+                            </h1>
                             <h1 style={{  justifyContent: 'center',fontSize:'3rem', color: "white", display: this.state.correctAnswer == 9 ? 'flex' : 'none' }}>You Won a Bandge!! </h1>
                             <br></br>
                             <div style={{ justifyContent: 'center', color: "white", display: this.state.correctAnswer == 9 ? 'flex' : 'none'}}>
@@ -281,7 +285,9 @@ class Level1 extends Component {
                         <div style={{ display: 'flex', justifyContent: 'center'  ,color: "white"}}>
                             <br></br>
                             <h1 >You scored { this.state.correctAnswer} out of 10</h1>
-                            
+                            <h1 >
+                                অংশগ্রহণের জন্য তোমাকে ধন্যবাদ
+                            </h1>
                         </div>
                         <br></br>
                         <div >

@@ -260,7 +260,11 @@ class Level2 extends Component {
                     :
                     <>
                         <div className='score-section'>
-                            <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>You scored { this.state.correctAnswer} out of 10</h1>
+                            <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>
+                                You scored { this.state.correctAnswer} out of 10</h1>
+                            <h1 style={{ display: 'flex', color: "white", justifyContent: 'center' }}>
+                                অংশগ্রহণের জন্য তোমাকে ধন্যবাদ
+                            </h1>
                             <h1 style={{  justifyContent: 'center',fontSize:'3rem', color: "white", display: this.state.correctAnswer == 9 ? 'flex' : 'none' }}>You Won a shirt!! </h1>
                             <br></br>
                             <div style={{ justifyContent: 'center', color: "white", display: this.state.correctAnswer == 9 ? 'flex' : 'none'}}>
@@ -283,7 +287,7 @@ class Level2 extends Component {
                             </Button>
                             <Button 
                             style={{ display: this.state.correctAnswer == 10 ? 'block' : 'none' }}>
-                                <Link to="/Level3" >Level3</Link></Button>
+                                </Button>
                         </div>
                     </>
                     :
@@ -291,6 +295,7 @@ class Level2 extends Component {
                         <div style={{ display: 'flex', justifyContent: 'center'  ,color: "white"}}>
                             <br></br>
                             <h1 >You scored { this.state.correctAnswer} out of 10</h1>
+                            <h1>অংশগ্রহণের জন্য তোমাকে ধন্যবাদ</h1>
                             
                         </div>
                         <br></br>
@@ -320,7 +325,7 @@ class Level2 extends Component {
                             
                         <Button 
                             style={{ display: this.state.correctAnswer == 10 ? 'block' : 'none' }}>
-                                <Link to="/Level3" >Level3</Link></Button>
+                                </Button>
                         </div>
                     </>
                 }
