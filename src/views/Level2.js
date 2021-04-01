@@ -296,6 +296,7 @@ class Level2 extends Component {
                         <div style={{ display: 'flex', justifyContent: 'center'  ,color: "white"}}>
                             <br></br>
                             <h1 >You scored { this.state.correctAnswer} out of 10</h1>
+                            <br></br>
                             <h1>অংশগ্রহণের জন্য তোমাকে ধন্যবাদ</h1>
                             
                         </div>
